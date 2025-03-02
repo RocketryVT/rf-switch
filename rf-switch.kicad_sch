@@ -1,5 +1,475 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "830e6758-6978-4c51-a47d-cc62987371c9")
+	(paper "A4")
+	(lib_symbols
+		(symbol "rf-switch:PE42440MLBB-Z"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RFS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.5 0.5)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PE42440MLBB-Z_0_1"
+				(rectangle
+					(start -1.5 1.5)
+					(end 1.5 -1.5)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PE42440MLBB-Z_1_1"
+				(pin power_in line
+					(at -1.5 0.735 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.5 -0.265 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.5 0.265 0)
+					(length 2.54)
+					(name "RFC"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.5 0.765 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0.765 1.5 90)
+					(length 2.54)
+					(name "RF1"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0.265 1.5 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -0.265 1.5 90)
+					(length 2.54)
+					(name "RF2"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -0.765 1.5 90)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.5 0.235 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.5 -0.265 180)
+					(length 2.54)
+					(name "V2"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.5 -0.765 180)
+					(length 2.54)
+					(name "V1"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -0.765 -1.5 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -0.265 -1.5 270)
+					(length 2.54)
+					(name "RF4"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0.265 -1.5 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0.765 -1.5 270)
+					(length 2.54)
+					(name "RF3"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.5 -0.765 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0.25 0.25)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rf-switch:PE42440MLBB-Z")
+		(at 140.97 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22fdba36-a4ae-4716-950f-44c66f3436cb")
+		(property "Reference" "RFS1"
+			(at 147.32 85.1168 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 147.32 86.3869 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PE42440_rf_switch:PE42440"
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d33c5e2-8985-412c-8d56-754863546c90")
+		)
+		(pin "9"
+			(uuid "74130b26-ff42-42e3-8cac-b5fe79b3ffc9")
+		)
+		(pin "12"
+			(uuid "01198bf1-f50a-4849-a9bc-088778a5940a")
+		)
+		(pin "8"
+			(uuid "2fd7e96a-0b99-4bcc-8271-d9ac20fe0f89")
+		)
+		(pin "10"
+			(uuid "2d103e90-2cdb-404a-9dc3-40c2380c8307")
+		)
+		(pin "13"
+			(uuid "475afba8-22d9-49e5-b100-ae0f050ad2c1")
+		)
+		(pin "6"
+			(uuid "6cef2700-001d-4a29-bd64-fa60a7de4bf8")
+		)
+		(pin "2"
+			(uuid "59ef2a24-f4e6-4a4c-8331-996b1f7f1e76")
+		)
+		(pin "14"
+			(uuid "5cc795b5-1b3b-426c-a397-b9560857b91a")
+		)
+		(pin "15"
+			(uuid "9e0ac0ad-9aa1-4939-a5db-3a20a3547f9c")
+		)
+		(pin "4"
+			(uuid "a969ecff-6997-410b-9cab-843bb03ab1d7")
+		)
+		(pin "11"
+			(uuid "48ed4aaa-eef1-440a-86b2-d3002304974d")
+		)
+		(pin "7"
+			(uuid "c43d1f03-1008-48b1-8257-9aa2b8d51573")
+		)
+		(pin "3"
+			(uuid "396f6566-53a9-4628-930a-3cab2eab8947")
+		)
+		(pin "5"
+			(uuid "4c8d3093-2c48-4743-94a6-ed3b8168de3a")
+		)
+		(pin "16"
+			(uuid "94793bc8-3b2f-42c0-a862-5ebfbb45a7d1")
+		)
+		(instances
+			(project ""
+				(path "/830e6758-6978-4c51-a47d-cc62987371c9"
+					(reference "RFS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
