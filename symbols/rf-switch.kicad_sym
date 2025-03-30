@@ -6,23 +6,45 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "RFS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 0.5 0.5)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Reference" "IC"
+			(at 26.67 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Value" "PE42440MLBB-Z"
+			(at 26.67 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "PE42440_rf_switch:PE42440"
+			(at 26.67 -84.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.psemi.com/pdf/datasheets/pe42440ds.pdf"
+			(at 26.67 -184.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC RF SWITCH SP4T 50 OHM 16QFN"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31,322 +53,370 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Height" "0.8"
+			(at 26.67 -384.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Mouser Part Number" "81-PE42440MLBB-Z"
+			(at 26.67 -484.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(symbol "PE42440MLBB-Z_0_1"
-			(rectangle
-				(start -1.5 1.5)
-				(end 1.5 -1.5)
-				(stroke
-					(width 0)
-					(type default)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/pSemi/PE42440MLBB-Z?qs=iw0hurA%2FaD2gwWbIiMzq6w%3D%3D"
+			(at 26.67 -584.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type none)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Peregrine Semiconductor"
+			(at 26.67 -684.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PE42440MLBB-Z"
+			(at 26.67 -784.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
 			)
 		)
 		(symbol "PE42440MLBB-Z_1_1"
-			(pin power_in line
-				(at -1.5 0.735 180)
-				(length 2.54)
-				(name "GND"
+			(rectangle
+				(start 5.08 12.7)
+				(end 25.4 -20.32)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "GND_1"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin power_in line
-				(at 1.5 -0.265 0)
-				(length 2.54)
-				(name "GND"
+			(pin passive line
+				(at 30.48 -5.08 180)
+				(length 5.08)
+				(name "GND_5"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "10"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin unspecified line
-				(at 1.5 0.265 0)
-				(length 2.54)
+			(pin passive line
+				(at 30.48 -2.54 180)
+				(length 5.08)
 				(name "RFC"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "11"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin unspecified line
-				(at 1.5 0.765 0)
-				(length 2.54)
-				(name "GND"
+			(pin passive line
+				(at 30.48 0 180)
+				(length 5.08)
+				(name "GND_6"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "12"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0.765 1.5 90)
-				(length 2.54)
+			(pin passive line
+				(at 20.32 17.78 270)
+				(length 5.08)
 				(name "RF1"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "13"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin power_in line
-				(at 0.265 1.5 90)
-				(length 2.54)
-				(name "GND"
+			(pin passive line
+				(at 17.78 17.78 270)
+				(length 5.08)
+				(name "GND_7"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "14"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin unspecified line
-				(at -0.265 1.5 90)
-				(length 2.54)
+			(pin passive line
+				(at 15.24 17.78 270)
+				(length 5.08)
 				(name "RF2"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "15"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin no_connect line
-				(at -0.765 1.5 90)
-				(length 2.54)
+				(at 12.7 17.78 270)
+				(length 5.08)
 				(name "N/C"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "16"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin power_in line
-				(at -1.5 0.235 180)
-				(length 2.54)
+			(pin passive line
+				(at 10.16 17.78 270)
+				(length 5.08)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
 				(name "VDD"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin power_in line
-				(at -1.5 -0.265 180)
-				(length 2.54)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
 				(name "V2"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin power_in line
-				(at -1.5 -0.765 180)
-				(length 2.54)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
 				(name "V1"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin power_in line
-				(at -0.765 -1.5 270)
-				(length 2.54)
-				(name "GND"
+			(pin passive line
+				(at 10.16 -25.4 90)
+				(length 5.08)
+				(name "GND_2"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin unspecified line
-				(at -0.265 -1.5 270)
-				(length 2.54)
+			(pin passive line
+				(at 12.7 -25.4 90)
+				(length 5.08)
 				(name "RF4"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin power_in line
-				(at 0.265 -1.5 270)
-				(length 2.54)
-				(name "GND"
+			(pin passive line
+				(at 15.24 -25.4 90)
+				(length 5.08)
+				(name "GND_3"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "7"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0.765 -1.5 270)
-				(length 2.54)
+			(pin passive line
+				(at 17.78 -25.4 90)
+				(length 5.08)
 				(name "RF3"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "8"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin power_in line
-				(at 1.5 -0.765 0)
-				(length 2.54)
-				(name "GND"
+			(pin passive line
+				(at 30.48 -7.62 180)
+				(length 5.08)
+				(name "GND_4"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "9"
 					(effects
 						(font
-							(size 0.25 0.25)
+							(size 1.27 1.27)
 						)
 					)
 				)
