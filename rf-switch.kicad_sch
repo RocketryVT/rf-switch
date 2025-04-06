@@ -1764,7 +1764,7 @@
 		)
 		(uuid "f44726f4-8891-4cc3-a1af-e659d976709b")
 	)
-	(label "GND_1"
+	(label "GND"
 		(at 133.35 91.44 180)
 		(effects
 			(font
@@ -1920,7 +1920,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 104.14 76.2 0)
+		(at 104.14 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1929,7 +1929,7 @@
 		(fields_autoplaced yes)
 		(uuid "0369b0bd-ef6c-4eea-b53a-05e1eb61ba40")
 		(property "Reference" "J5"
-			(at 103.6204 69.85 0)
+			(at 104.6595 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1937,7 +1937,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial_Small"
-			(at 103.6204 72.39 0)
+			(at 104.6595 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,7 +2194,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 104.14 71.12 0)
+		(at 104.14 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2203,7 +2203,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bfc9018-0d2d-43b6-aaa0-c8f131af0a1d")
 		(property "Reference" "J4"
-			(at 103.6204 64.77 0)
+			(at 104.6595 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +2211,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial_Small"
-			(at 103.6204 67.31 0)
+			(at 104.6595 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
